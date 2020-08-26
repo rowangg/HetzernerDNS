@@ -1,9 +1,23 @@
 # HetznerDNS
-HetznerDNS api NodeJS CLI grab information quickly and easily
+HetznerDNS api CLI tool written in node.js to quickly manage the HetznerDNS API.
 
-Usage:
+This API will allow you to very quickly and easily GET and POST to the Hetzner DNS API.
 
-<code>wget -qO-  https://raw.githubusercontent.com/rowangg/HetznerDNS/master/hdns.js | node - API_KEY {vairble}</code>
+# Usage
+
+This API utilizes a terminal command to allow for quick and easy use of the HetznerDNS api.  The following command can be used to use this API. 
+
+<code>wget -qO-  https://git.io/JUTeO | node - --key (API Key or Key File) ([Option 1, Option 2, Option 3, Option 4, etc...])</code>
+
+# Options
+
+### <code>-k</code> or <code>--key</code>
+
+ This option is to allow you to enter your API Key into the application.  It can be formatted as a string or it can be formatted as a key file. An API Key file is a file containing your API key, this will allow for quick use of the HetznerDNS API.  The API key file **MUST** be named <code>api.key</code>.
+ 
+ Usage (With API Key): <code>wget -qO-  https://git.io/JUTeO | node - -k 84BFPidGvvNgeX9kdbs4ErmyMp05BI9p</code>
+ 
+ Usage (With API Key File): <code>wget -qO-  https://git.io/JUTeO | node - -k api.key</code>
 
 Varibles:
 
