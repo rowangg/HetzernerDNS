@@ -33,7 +33,7 @@ Functions are the core of this API.  Functions are what you use to call to Hetzn
 
 Varibles:
 
-- <code>-a or --all<code> = Gives all information about all sites
+- <code>-a or --all</code> = Gives all information about all sites
 - name = Give the domain names of all zones
 - id = Gives the Zone ID for all sites
 - ttl = Gives the default TTL for all zones
